@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="section_img_bttn" type="drawable">@drawable/bleachsitswap</drawable>
+</resources>

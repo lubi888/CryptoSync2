@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">CryptoSync2 Gaeilge</string>
+    <!-- Strings Nav-->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">athraithe</string>
+
+    <!--Strings-->
+<string name="app_name1">HelloAndroidWithLoginAndRegistration</string>
+    <string name="email_string">Email</string>
+    <string name="username_string">UserName</string>
+    <string name="password_string">Password</string>
+    <string name="enter_email_hint">Enter email</string>
+    <string name="enter_username_hint">Enter username</string>
+    <string name="enter_password_hint">Enter Password</string>
+    <string name="login_string">Login</string>
+    <string name="register_string">Register</string>
+    <string name="log_reg_string">Login/Register</string>
+
+
+    <string name="hello">Hello Android!</string>
+    <!-- sandbox -->
+    <string name="reg_string">Registrato, if you will</string>
+
+    <!-- map string from contacts-->
+    <string name="find_address_string">"Find Address"</string>
+    <string name="map_contacts_app">"Map Contacts App"</string>
+
+    <!-- map location -->
+    <string name="show_map_string">Show Map</string>
+    <string name="location_string">Enter Location</string>
+    <string name="map_app">"Map App"</string>
+    
+    <string name="fuzz">"--------fuzzzzz--- :-)"</string>
+
+    <!-- main content -->
+    <string name="main_intro">"Greetings to CryptoSync where we are going to learn how to synchronise with the Ethereum or Ethereum Classic Blockchain.
+        \nThe main point is that you will understand and visualise the blockchain in real-time and understand the technology behind Ethereum and Bitcoin.
+        \nTake a look at the navigation bar as it has the main links and just use the hamburger bar from the top left."
+    </string>
+</resources>

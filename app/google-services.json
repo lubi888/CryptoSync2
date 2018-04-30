@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "819938910967",
+    "firebase_url": "https://cryptosync2.firebaseio.com",
+    "project_id": "cryptosync2",
+    "storage_bucket": "cryptosync2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:819938910967:android:c4ab7ab00bae0e40",
+        "android_client_info": {
+          "package_name": "com.liberties.iveagh.cryptosync2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "819938910967-ktc8b5fetnb4828mu6jgmeuj06d9eu83.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmYV40dE7g51V7AUxYmOlcQTVSqu0yR8w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

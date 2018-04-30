@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.liberties.iveagh.cryptosync2">
+
+    <uses-sdk
+        android:minSdkVersion="23"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginScreen"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".HelloAndroid"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".RegistrationScreen"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".MapLocation"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".MapLocationContacts"
+            android:label="@string/app_name"
+            android:theme="@style/blacklime" />
+        <activity
+            android:name=".CameraActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".EthereumMain"
+            android:label="@string/app_name"
+            android:theme="@style/blacklime" />
+        <activity
+            android:name=".EthereumAPI"
+            android:label="@string/app_name"
+            android:theme="@style/blacklime" />
+        <!-- <activity -->
+        <!-- android:name=".Camera2BasicFragment" -->
+        <!-- android:label="@string/app_name" /> -->
+        <!-- <activity -->
+        <!-- android:name=".AutoFitTextureView" -->
+        <!-- android:label="@string/app_name" /> -->
+
+
+        <!-- <activity -->
+        <!-- android:name=".HelloActivity" -->
+        <!-- android:label="@string/app_name" -->
+        <!-- android:theme="@style/blackred"> -->
+        <!-- </activity> -->
+        <activity android:name=".FirebaseActivity" />
+        <activity android:name=".FirebaseProfile" />
+        <activity android:name=".FirebaseLogin" />
+        <activity
+            android:name=".LinuxEthereumTabbed"
+            android:label="@string/title_activity_linux_ethereum_tabbed"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".LoginGoogleActivity"
+            android:label="@string/title_activity_login_google"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,50 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.liberties.iveagh.cryptosync2.LinuxEthereumTabbed">
+    <item
+        android:id="@+id/action_main"
+        android:orderInCategory="100"
+        android:title="@string/action_main"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_hello"
+        android:orderInCategory="101"
+        android:title="@string/hello"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_english"
+        android:orderInCategory="102"
+        android:title="@string/english"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_gaeilge"
+        android:orderInCategory="102"
+        android:title="@string/gaeilge"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_tamil"
+        android:orderInCategory="103"
+        android:title="@string/tamil"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_german"
+        android:orderInCategory="104"
+        android:title="@string/german"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_contacs"
+        android:orderInCategory="105"
+        android:title="@string/contacts"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_about"
+        android:orderInCategory="106"
+        android:title="@string/about"
+        app:showAsAction="never" />
+</menu>
